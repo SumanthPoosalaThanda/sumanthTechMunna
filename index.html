@@ -1,16 +1,11 @@
 <html lang="en">
- <head> <title>SumanthMunna/PoosalaThanda-HTML5 Editor</title>
+ <head> <title>SumanthMunna-PoosalaThanda-HTML5/Editor</title>
         <meta charset="utf-8"> 
          <meta http-equiv="X-UA-Compatible" content="IE=edge">
           <meta name="viewport" content="width=device-width, initial-scale=1">
 <style type= "text/css">
-div {border: 0.5px white ;
-  background-color: white; 
-  text-align: center;
-  height: 60px; 
-}
-h1 {color:lightblue;text-align: center; font-family: serif; font-size:x-large; text-shadow: 2px 2px black; }
-h2 {color:green ;text-align:center; font-family: aerial; font-size:x-large;text-shadow:1.5px 1.5px black;}
+h1 {color:green;text-align: center; font-family: serif; font-size:x-large; text-shadow: 1px 1px black; }
+h2 {color:green ;text-align:center; font-family: aerial; font-size:x-large;text-shadow:1px 1px black;}
 p1 {font-family: "Lucida Console", "Courier New","monospace";
 }
 h3 {color: blue; font-family: "bold"; text-align:"left"; font-size:"xx-large"; text-shadow:1px 1px blue; }
@@ -20,12 +15,23 @@ footer {
   background-color: #abbaba;
   color: #000;
 }
+body {
+  padding: 2px;
+  background-color: white;
+  color: black;
+  font-size: 15px;
+}
+
+.dark-mode {
+  background-color: black;
+  color: white;
+}
 </style>
 <body>
       <a href="https://www.youtube.com/@Sumanth2024/videos"><img src="Sumanth.png" alt=BCCI image not found! class="1EB4Hf" style="width:44px; height: 44px;" width="44" height="44"></a><h1><b>The Prince   of  Cricket</b></h1>
      <a href="https://www.bcci.tv/players/3761/shubman-gill"><img src="sub.jpg" width="345" height="300"></a><br>
 <br>
-      <div><h2><b><p>Shubman Gill</p></b></h2></div>
+      <h2><b><p>Shubman Gill</p></b></h2>
 <p1>Shubman Gill (born 8 September 1999) is an Indian cricketer. Representing Indian cricket team at the international level, he also plays for Gujarat Titans in the Indian Premier League and Punjab in domestic cricket. Gill served as the vice-captain of the Indian Under-19 cricket team in the 2018 Under-19 Cricket World Cup and won Player of the Tournament award. A right-handed opening batsman, he is considered one of the best young cricketers in the world.[2] Gill holds the record for youngest cricketer to score a double century in One Day International cricket.[3] and for the highest T20 score by an individual for the Indian team.</p1>
 <br>
 <iframe jsname="L5Fo6c" class="YMEQtf" sandbox="allow-scripts allow-popups allow-forms allow-same-origin allow-popups-to-escape-sandbox allow-downloads allow-modals" frameborder="0" aria-label="Map, PS Hanuman Temple" src="https://maps-api-ssl.google.com/maps?hl=en-US&amp;ll=17.457987,79.962726&amp;output=embed&amp;q=FX47+P35,+Chinthapalle,+Telangana+506315,+India+(PS+Hanuman+Temple)&amp;z=16" allowfullscreen=""></iframe>
@@ -35,8 +41,16 @@ footer {
 <a href="https://www.youtube.com/@Sumanth2024/videos"><img src="youtube_colored_44dp.png" alt="YouTube" class="lEB4Hf" style="width: 44px; height: 44px;" width="44" height="44"></a>
 <a href="https://www.bcci.tv/players/3761/shubman-gill"><img src="bcci.png" alt=BCCI image not found! class="1EB4Hf" style="width:38px; height: 38px;" width="38" height="38"></a>
 <br>
+<button onclick="myFunction()">Dark mode</button>
+<script>
+function myFunction() {
+   var element = document.body;
+   element.classList.toggle("dark-mode");
+}
+</script>
+<br>
 <footer>
-    <small>
+    <large>
       Copyright © 2023 Sumanth Munna. All Rights Reserved.
-    </small>
+    </large>
   </footer>
